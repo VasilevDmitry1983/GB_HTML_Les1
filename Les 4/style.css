@@ -1,0 +1,109 @@
+body {
+    background: #f8f8f8;
+}
+h1 {
+    text-align: center;
+}
+.menu {
+    color: black;
+    font-family: "Times New Roman";
+    font-size: 20px;
+}
+.menu1 {
+    color: black;
+    font-family: "Times New Roman";
+    font-size: 20px;
+}
+.menu_link {
+    color: blue;    
+}
+.menu_link:hover{
+    color: red;
+}
+.head2 {
+    color: black;
+    font-family: "Times New Roman";
+    font-size: 18px;
+    font-weight: 400;
+    background: #eaeaea;
+}
+.text1 {
+    color: #707070;
+    font-family: italic;
+    font-size: 14px;
+    line-height: 16px;        
+}
+.firstLetter:first-letter {
+    color: brown;
+    font-family: Arial;
+    font-size: 150%;
+}
+.text2 {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; 
+    text-align: left;
+    list-style-image:
+     url(images/icon.png);
+}
+.text3 {
+    color: #1a1515;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 15px; 
+    text-align: left;
+}
+.inputField {
+   height: 20px;
+   width: 300px;
+   font-size: 14px;
+   font-weight: 300;
+   line-height: 15px;
+   background-color: #c3abab; 
+   color: rgb(17, 13, 12); 
+   text-transform: capitalize;
+}
+.inputEmail:focus {
+    background-color: rgb(164, 222, 230);
+    color: rgb(35, 6, 167);
+}
+
+.textArea {
+    font-size: 14px;
+   font-weight: 300;
+   line-height: 15px;
+   background-color: #c3abab; 
+   color: rgb(17, 13, 12); 
+}
+.img1 {
+    border: 3px solid #0011af;
+}
+.img2 {
+    border: 10px solid #1b1f41;
+}
+.img1:hover {
+    border-color: transparent;     
+}
+.img2:hover {
+    border-color: transparent;     
+}
+.table {
+    border: 1px solid #000;
+    width: 100%;
+    height: 250px;
+    border-collapse: collapse;
+  }
+.tableHeader {
+    color: blue;
+    height: 50px;
+    font-size: 30px;
+
+}
+td {
+    border: 1px solid #000;
+  } 
+.firstLine {
+    background-color: red;
+    height: 20px;
+}   
