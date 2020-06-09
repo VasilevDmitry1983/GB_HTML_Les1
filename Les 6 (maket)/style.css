@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0 auto;
+}
+
+.top {
+    background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+    height: 768px;
+}
+
+.top__back {
+    background-image: url(img/illustration.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    height: 90%;
+    background-size: 47%;
+}
+
+.top__content {
+    width: 504px;
+    margin-top: 107px;
+}
+
+.top__heading {
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 74px;
+    color: #1F3F68;
+    margin-bottom: 32px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 34px;
+}
+
+.text {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    opacity: 0.6;
+}
+
+.text_margin-bottom {
+    margin-bottom: 71px;
+}
+.text__proj {
+    text-align: center;
+    color: #222222;
+    width: 750px;
+    margin: 0 auto;
+    margin-bottom: 64px;
+}
+
+.button {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    padding: 15px 50px;
+    display: inline-block;
+}
+
+.heading {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-top: 64px;
+    margin-bottom: 32px;
+}
+
+.heading-mini {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    margin-bottom: 14px;
+}
+
+.product-box {
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product {
+    width: 359px;
+    background: #FFFFFF;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    padding: 44px 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product__link {
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #5A98D0;
+    margin-top: 30px;
+    display: flex;
+}
+
+.product__img {
+    align-self: center;
+    margin-bottom: 51px;
+}
+
+.product__img_big {
+    margin-top: -30px;
+}
+
+.product__arrow {
+    margin-left: 20px;
+}
+.smartHome {
+    width: 1140px;
+    height: 480px;
+    left: 113px;
+    top: 1675px;
+    margin-top: 64px;
+    margin-bottom: 32px;
+    background-image: url(img/smartHome.png);
+    padding-top: 64px;
+    padding-left: 678px;
+
+}
+.smartHome__text {
+    width: 398px;
+    height: 112px;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+.spark-car {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 112px;
+}
+.spark {
+    width: 554px;
+    height: 417px;
+    background: linear-gradient(316.94deg, rgba(66, 165, 245, 0.4) -1.71%, rgba(21, 101, 192, 0.6) 74.54%);
+    border-radius: 10px;
+    background-image: url(img/spark.png);
+    padding-top: 32px;
+    padding-left: 32px;
+}
+.car {
+    width: 554px;
+    height: 417px;
+    background: linear-gradient(314.49deg, rgba(66, 165, 245, 0.4) 0%, rgba(21, 101, 192, 0.6) 97.81%);
+    border-radius: 10px;
+    background-image: url(img/car.png);
+    padding-top: 32px;
+    padding-left: 32px;
+}
+.spark__text {
+    width: 185px;
+    height: 46px;
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+.car__text {
+    width: 260px;
+    height: 46px;
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+.footer {
+    height: 657px;
+    background: #316099;
+}
+.footer_top_content {
+    height: 396px;
+    padding-top: 91px;   
+    
+}
+.heading-footer {
+    width: 340px;
+    height: 92px;    
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    padding-bottom: 32px;
+}
+.text_footer1 {
+    width: 495px;
+    height: 80px;
+    color: #FFFFFF;
+    opacity: 0.6;  
+}
+.button_footer {         
+    box-shadow: none;
+    border-radius: 0px;
+    padding: 15px 81px;    
+}
+.line {
+    height: 0px;
+    opacity: 0.4;
+    border: 1px solid #FFFFFF;
+}
